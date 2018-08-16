@@ -1,0 +1,6 @@
+git config --global user.name "vishavdeepsingh"
+git config --global user.email "vishavsandhu7700@gmail.com"
+git init
+git add .
+git commit -m "message"
+git push origin master
