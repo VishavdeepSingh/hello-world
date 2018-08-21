@@ -4,17 +4,11 @@ print(li[::-1])
 
 #Q2
 a='viShavDeeP SingH sanDHu'
-count1=0
-count2=0
-for i in a:
-    if(i.isupper()):
-        count1=count1 + 1
-    else:
-        count2=count2 + 1
-print('The no of uppercase in string are:')
-print(count1)
+for ch in a:
+    if(ch >= 'A' and ch <= 'Z'):
+        print(ch, end=" ")
 
-#Q3
+'''#Q3
 a=['1','2','3','4','5']
 b=[]
 for i in a:
@@ -36,7 +30,7 @@ x=[1,2, [3,4,5],6]
 y=copy.deepcopy(x)
 y[2][1]=7
 print(x)
-print(y)
+print(y)'''
 
 '''SHALLOW COPY: A Shallow copy does not creates a copy of nested objects, instead it just copies the reference of nested loop.
    DEEP COPY: A deep copy creates a new object and recursively adds the copies of nested objects present in the original elements'''
